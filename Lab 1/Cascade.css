@@ -1,0 +1,21 @@
+/* position */
+
+
+/*specificity*/
+.wrapper {
+    background-color: #000;
+    color: #fff;
+}
+
+div {
+    background-color: #BADA55;
+    color: #000;
+}
+
+/* inheritance - not part of the cascade, but a related concept */
+
+body { /*This is the selector */
+    color: purple; /*This is the property and "purple" is the value*/
+    height: 100px;/*The semicolon is a declaration*/
+
+}
